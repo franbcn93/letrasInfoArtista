@@ -1,7 +1,10 @@
 # Getting Started with Create React App
 
-Comprueba el projecto [Pruébame...](https://franbcn93.github.io/letrasInfoArtista).
-https://franbcn93.github.io/letrasInfoArtista
+Comprueba el projecto [Pruébame...](https://franbcn93.github.io/letrasInfoArtista)
+
+## O mejor aún, puedes ver un breve video haciendo click sobre la imagen
+
+[![Watch the video](https://res.cloudinary.com/dfb6ivozp/image/upload/v1629452667/letraCancion_igewnb.png)](https://res.cloudinary.com/dfb6ivozp/video/upload/v1629452691/letraCancion_wkdzgs.webm)
 
 ## Available Scripts
 
