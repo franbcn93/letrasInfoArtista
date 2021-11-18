@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/letrasInfoArtista/static/css/main.db8a6be3.chunk.css",
-    "main.js": "/letrasInfoArtista/static/js/main.219776ef.chunk.js",
-    "main.js.map": "/letrasInfoArtista/static/js/main.219776ef.chunk.js.map",
+    "main.js": "/letrasInfoArtista/static/js/main.1f3a32fa.chunk.js",
+    "main.js.map": "/letrasInfoArtista/static/js/main.1f3a32fa.chunk.js.map",
     "runtime-main.js": "/letrasInfoArtista/static/js/runtime-main.9fe339ca.js",
     "runtime-main.js.map": "/letrasInfoArtista/static/js/runtime-main.9fe339ca.js.map",
     "static/js/2.984f4e84.chunk.js": "/letrasInfoArtista/static/js/2.984f4e84.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9fe339ca.js",
     "static/js/2.984f4e84.chunk.js",
     "static/css/main.db8a6be3.chunk.css",
-    "static/js/main.219776ef.chunk.js"
+    "static/js/main.1f3a32fa.chunk.js"
   ]
 }
