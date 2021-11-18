@@ -18,14 +18,16 @@ function App() {
 
       // La API url está apuntando a una canción de Sabina,
       // ya que me pide id_artist, id_album i id_track
-      const url = `https://api.happi.dev/v1/music/artists/5244/albums/782880/tracks/13244206/lyrics?apikey=0a42d6kmXpNGFR3I76mDvapwXAS9jUPQpBVmi32irHFdSvBsj5LOMB4F`;
+      // const url = `https://api.happi.dev/v1/music/artists/5244/albums/782880/tracks/13244206/lyrics?apikey=0a42d6kmXpNGFR3I76mDvapwXAS9jUPQpBVmi32irHFdSvBsj5LOMB4F`;
+      const url = `https://api.lyrics.ovh/v1/${artista}/${cancion}`;
       const url2 = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${artista}`;
 
       // const resultado = await axios(url);
       // console.log(resultado.data.result.lyrics);
       const [letra, informacion] = await Promise.all([axios(url), axios(url2)]);
 
-      guardarLetra(letra.data.result);
+      // guardarLetra(letra.data.result);
+      guardarLetra(letra.data.lyrics);
       guardarInfo(informacion.data.artists[0]);
 
       console.log(letra);
