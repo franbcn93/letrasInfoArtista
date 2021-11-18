@@ -30,14 +30,14 @@ function App() {
       guardarLetra(letra.data.lyrics);
       guardarInfo(informacion.data.artists[0]);
 
-      console.log(letra);
-      console.log(informacion);
+      // console.log(letra);
+      // console.log(informacion);
 
       // guardarLetra(resultado.data.lyrics);
       // b274c7b9e18d3ccaba2277ed04bd52c0
     };
     consultarAPILetra();
-  }, [busquedaLetra]);
+  }, [busquedaLetra, info]);
   return (
     <Fragment>
       <Formulario guardarBusquedaLetra={guardarBusquedaLetra} />
